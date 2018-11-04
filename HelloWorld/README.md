@@ -1,9 +1,17 @@
+Examples here belong to "OWIN and Microsoft Katana 101" book.
+
 This is an implementation of an OWIN middleware that returns "Hello World" response
 
-1) You need to install an OWIN host (OwinHost.exe) to use this class library project.
-2) Change the output directory of the dlls to \bin directory using Visual Studio
-a) Right click the class project > Properties.
-b) On left tool bar > Build. In Output section, change output path to "bin\"
+<h1>OwinHost.exe method of hosting</h1>
+1) You need to install an OWIN host (OwinHost.exe) to use this class library project.<br/>
+a) Install chocolately.<br/>
+b) Run command "cinst OwinHost" to get OwinHost.exe<br/>
+c) You can run "OwinHost /?" to find out more.<br/>
+
+2) Open package manager console, type in "Install-Package Owin"
+3) Change the output directory of the dlls to \bin directory using Visual Studio<br/>
+a) Right click the class project > Properties.<br/>
+b) On left tool bar > Build. In Output section, change output path to "bin\"<br/>
 
 To run the dll on OwinHost
 1) Open command prompt
@@ -11,3 +19,14 @@ To run the dll on OwinHost
 3) Type in "OwinHost"
 4) The server will be started. Go to internet browser and type in http://localhost:5000/
 5) A "Hello World" message will be there.
+
+<h1>Hosting using console application (custom host)</h1>
+1) Create a new console application project (I created MyConsoleAppHost project)
+2) Open package manager console, type in "Install-Package Microsoft.Owin.SelfHost"
+3) Type in code for Program.cs
+4) Build and run console application.
+5) The server will be started. Go to internet browser and type in http://localhost:5000/
+
+<h1>Hosting in ASP.NET web application, IIS (non ASP.NET core)</h1>
+This focuses on the Microsoft.Owin.Host.SystemWeb namespace, not Microsoft.Owin.Host.IIS.
+
