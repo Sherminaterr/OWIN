@@ -1,0 +1,17 @@
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.csprojAssemblyReference.cache
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.csproj.CoreCompileInputs.cache
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\MyConsoleAppHost2.exe.config
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\MyConsoleAppHost2.exe
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\MyConsoleAppHost2.pdb
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Microsoft.Owin.Diagnostics.dll
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Microsoft.Owin.dll
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Owin.dll
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Microsoft.Owin.xml
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Microsoft.Owin.Diagnostics.xml
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.csproj.CopyComplete
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.exe
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.pdb

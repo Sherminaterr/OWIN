@@ -8,7 +8,7 @@ a) Install chocolately.<br/>
 b) Run command "cinst OwinHost" to get OwinHost.exe<br/>
 c) You can run "OwinHost /?" to find out more.<br/>
 
-2) Open package manager console, type in "Install-Package Owin"
+2) Open package manager console, type in "Install-Package Owin" for HelloWorld project.
 3) Change the output directory of the dlls to \bin directory using Visual Studio<br/>
 a) Right click the class project > Properties.<br/>
 b) On left tool bar > Build. In Output section, change output path to "bin\"<br/>
@@ -29,4 +29,9 @@ To run the dll on OwinHost
 
 <h1>Hosting in ASP.NET web application, IIS (non ASP.NET core)</h1>
 This focuses on the Microsoft.Owin.Host.SystemWeb namespace, not Microsoft.Owin.Host.IIS.
-
+1) Create Empty web application project (MyIISHost), without adding any libraries.
+2) Set it as startup project.
+3) In package manager console, type in "Install-Package Microsoft.Owin.Host.SystemWeb"
+4) Add reference to HelloWorld class library project.
+5) Add HTML files and configuration in web.config
+6) Rebuild and run.

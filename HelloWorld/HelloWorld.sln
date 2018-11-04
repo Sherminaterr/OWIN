@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsoleAppHost", "MyConsoleAppHost\MyConsoleAppHost.csproj", "{50855E09-11D9-45E7-B0B2-29F2EE027519}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyIISHost", "MyIISHost\MyIISHost.csproj", "{8A05DD93-22A9-4C0B-A763-8012EB0DCDC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldV2", "HelloWorldV2\HelloWorldV2.csproj", "{C2EE5E21-176B-440D-BFE3-35A4010EB6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConsoleAppHost2", "MyConsoleAppHost2\MyConsoleAppHost2.csproj", "{9F79D419-DEE4-4493-83CE-F5F7CD880D23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +32,18 @@ Global
 		{50855E09-11D9-45E7-B0B2-29F2EE027519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50855E09-11D9-45E7-B0B2-29F2EE027519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50855E09-11D9-45E7-B0B2-29F2EE027519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A05DD93-22A9-4C0B-A763-8012EB0DCDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A05DD93-22A9-4C0B-A763-8012EB0DCDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A05DD93-22A9-4C0B-A763-8012EB0DCDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A05DD93-22A9-4C0B-A763-8012EB0DCDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EE5E21-176B-440D-BFE3-35A4010EB6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EE5E21-176B-440D-BFE3-35A4010EB6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EE5E21-176B-440D-BFE3-35A4010EB6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EE5E21-176B-440D-BFE3-35A4010EB6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F79D419-DEE4-4493-83CE-F5F7CD880D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F79D419-DEE4-4493-83CE-F5F7CD880D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F79D419-DEE4-4493-83CE-F5F7CD880D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F79D419-DEE4-4493-83CE-F5F7CD880D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

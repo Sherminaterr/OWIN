@@ -1,0 +1,10 @@
+D:\ASP\OwinCode\HelloWorld\HelloWorldV2\bin\Debug\HelloWorldV2.dll
+D:\ASP\OwinCode\HelloWorld\HelloWorldV2\bin\Debug\HelloWorldV2.pdb
+D:\ASP\OwinCode\HelloWorld\HelloWorldV2\bin\Debug\Microsoft.Owin.dll
+D:\ASP\OwinCode\HelloWorld\HelloWorldV2\bin\Debug\Owin.dll
+D:\ASP\OwinCode\HelloWorld\HelloWorldV2\bin\Debug\Microsoft.Owin.xml
+D:\ASP\OwinCode\HelloWorld\HelloWorldV2\obj\Debug\HelloWorldV2.csprojAssemblyReference.cache
+D:\ASP\OwinCode\HelloWorld\HelloWorldV2\obj\Debug\HelloWorldV2.csproj.CoreCompileInputs.cache
+D:\ASP\OwinCode\HelloWorld\HelloWorldV2\obj\Debug\HelloWorldV2.csproj.CopyComplete
+D:\ASP\OwinCode\HelloWorld\HelloWorldV2\obj\Debug\HelloWorldV2.dll
+D:\ASP\OwinCode\HelloWorld\HelloWorldV2\obj\Debug\HelloWorldV2.pdb
