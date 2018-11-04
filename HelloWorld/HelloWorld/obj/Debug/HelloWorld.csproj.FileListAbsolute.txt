@@ -6,3 +6,11 @@ D:\ASP\OWIN\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
 D:\ASP\OWIN\HelloWorld\HelloWorld\bin\HelloWorld.dll
 D:\ASP\OWIN\HelloWorld\HelloWorld\bin\HelloWorld.pdb
 D:\ASP\OWIN\HelloWorld\HelloWorld\bin\Owin.dll
+D:\ASP\OwinCode\HelloWorld\HelloWorld\bin\HelloWorld.dll
+D:\ASP\OwinCode\HelloWorld\HelloWorld\bin\HelloWorld.pdb
+D:\ASP\OwinCode\HelloWorld\HelloWorld\bin\Owin.dll
+D:\ASP\OwinCode\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+D:\ASP\OwinCode\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\ASP\OwinCode\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CopyComplete
+D:\ASP\OwinCode\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
+D:\ASP\OwinCode\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
