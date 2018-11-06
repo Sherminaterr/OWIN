@@ -31,13 +31,29 @@ namespace MyConsoleAppHost2
 
             //this middleware needs to run first in pipeline,
             //so it can be last to inspect outbound message.
-            if(context.Response.StatusCode >= 400)
+
+            //on sending headers callback is called when response headers are sent
+            //the response headers get sent whenever someone writes to response stream
+            //for streaming hosts. For buffering hosts, someone has to flush the response.
+            context.Response.OnSendingHeaders(state =>
             {
-                context.Response.Headers.Add("X-Box",
-                    new[]{
-                        System.Environment.MachineName
-                    });
-            }
+                var response = (OwinResponse)state;
+
+                if (response.StatusCode >= 400)
+                {
+                    response.Headers.Add("X-Box", new[] { System.Environment.MachineName });
+                }
+            }, context.Response);
+
+            await this.next(env);
+
+            //if(context.Response.StatusCode >= 400)
+            //{
+            //    context.Response.Headers.Add("X-Box",
+            //        new[]{
+            //            System.Environment.MachineName
+            //        });
+            //}
         }
     }
 }
