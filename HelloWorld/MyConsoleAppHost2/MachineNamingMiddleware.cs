@@ -20,9 +20,11 @@ namespace MyConsoleAppHost2
 
         public async Task Invoke(IDictionary<string,object> env)
         {
-            //do nothing on inbound processing.
-            //do just pass on to next middleware in the pipeline
-            await this.next(env);
+            //Comment this out, we want the X-Box header
+
+            ////do nothing on inbound processing.
+            ////do just pass on to next middleware in the pipeline
+            //await this.next(env);
 
             IOwinContext context = new OwinContext(env);
 

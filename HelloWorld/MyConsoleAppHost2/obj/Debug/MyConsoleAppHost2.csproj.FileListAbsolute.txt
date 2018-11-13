@@ -1,4 +1,3 @@
-D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.csprojAssemblyReference.cache
 D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.csproj.CoreCompileInputs.cache
 D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\MyConsoleAppHost2.exe.config
 D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\MyConsoleAppHost2.exe
@@ -15,3 +14,14 @@ D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Microsoft.Owin.Hosting.xm
 D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.csproj.CopyComplete
 D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.exe
 D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.pdb
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\MyWebApi.dll
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Newtonsoft.Json.dll
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\System.Net.Http.Formatting.dll
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\System.Web.Http.dll
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\System.Web.Http.Owin.dll
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\MyWebApi.pdb
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\Newtonsoft.Json.xml
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\System.Net.Http.Formatting.xml
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\System.Web.Http.xml
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\bin\Debug\System.Web.Http.Owin.xml
+D:\ASP\OwinCode\HelloWorld\MyConsoleAppHost2\obj\Debug\MyConsoleAppHost2.csprojAssemblyReference.cache

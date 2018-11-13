@@ -11,8 +11,12 @@ namespace MyConsoleAppHost2
     {
         static void Main(string[] args)
         {
+            //this statement loads MyWebApi assembly
+            var controllerType = typeof(MyWebApi.Controllers.EmployeesController);
+
             using (WebApp.Start<Startup>("http://localhost:5000"))
             {
+
                 Console.WriteLine("Server ready... Press Enter to quit.");
 
                 Console.ReadLine();

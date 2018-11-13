@@ -1,0 +1,13 @@
+D:\ASP\OwinCode\HelloWorld\MyWebApi\bin\Debug\MyWebApi.dll
+D:\ASP\OwinCode\HelloWorld\MyWebApi\bin\Debug\MyWebApi.pdb
+D:\ASP\OwinCode\HelloWorld\MyWebApi\bin\Debug\Newtonsoft.Json.dll
+D:\ASP\OwinCode\HelloWorld\MyWebApi\bin\Debug\System.Net.Http.Formatting.dll
+D:\ASP\OwinCode\HelloWorld\MyWebApi\bin\Debug\System.Web.Http.dll
+D:\ASP\OwinCode\HelloWorld\MyWebApi\bin\Debug\Newtonsoft.Json.xml
+D:\ASP\OwinCode\HelloWorld\MyWebApi\bin\Debug\System.Net.Http.Formatting.xml
+D:\ASP\OwinCode\HelloWorld\MyWebApi\bin\Debug\System.Web.Http.xml
+D:\ASP\OwinCode\HelloWorld\MyWebApi\obj\Debug\MyWebApi.csprojAssemblyReference.cache
+D:\ASP\OwinCode\HelloWorld\MyWebApi\obj\Debug\MyWebApi.csproj.CoreCompileInputs.cache
+D:\ASP\OwinCode\HelloWorld\MyWebApi\obj\Debug\MyWebApi.csproj.CopyComplete
+D:\ASP\OwinCode\HelloWorld\MyWebApi\obj\Debug\MyWebApi.dll
+D:\ASP\OwinCode\HelloWorld\MyWebApi\obj\Debug\MyWebApi.pdb

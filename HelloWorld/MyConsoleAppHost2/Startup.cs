@@ -1,7 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
+using System.Web.Http;
 
 [assembly: OwinStartup(typeof(MyConsoleAppHost2.Startup))]
 
@@ -13,6 +15,84 @@ namespace MyConsoleAppHost2
         {
             //MapAndMapWhen(app);
 
+            //AddResponseHeaders(app);
+
+            //ReadingRequestBody(app);
+
+            //ReadingResponseBody(app);
+
+            HostOWINWebApi(app);
+        }
+
+        private static void HostOWINWebApi(IAppBuilder app)
+        {
+            var config = new HttpConfiguration();
+            config.Routes.MapHttpRoute(
+                "default", "api/{controller}/{id}");
+
+            //MyConsoleAppHost2 project references tthe assembly containing ASP.NET web api related class (MyWebApi dll)
+            //UNless this assembly is loaded into the AppDomain, requests will not be routed to MyWebApi
+            //Let us load assembly implictly by referring to a type in that assembly from main method of
+            //MyConsoleAppHost2
+            app.UseWebApi(config);
+
+            //webapi only passes control to this only when certain conditions are met (e.g. not api/path...)
+            //if incoming request matches route in web api, web api short circuits OWIN pipeline and completely
+            //runs request thru web api pipeline.
+
+            //if we change webapi to return 404 not found, this will run
+            app.Run(async (IOwinContext context) =>
+            {
+                var bytes = System.Text.Encoding.UTF8.GetBytes("<h1>Hello World</h1>");
+
+                context.Response.ContentLength = bytes.Length;
+
+                await context.Response.WriteAsync(bytes);
+            });
+        }
+
+        private static void ReadingResponseBody(IAppBuilder app)
+        {
+            app.Use<ResponseReadingMiddleware>();
+
+            app.Run(async (IOwinContext context) =>
+            {
+                var bytes = System.Text.Encoding.UTF8.GetBytes("<h1>Hello World</h1>");
+
+                context.Response.ContentLength = bytes.Length;
+
+                await context.Response.WriteAsync(bytes);
+            });
+        }
+
+        /// <summary>
+        /// Request body can only be read once. Once middleware reads request stream,
+        /// stream content is emptied and no other middleware running subsequently in pipeline
+        /// can read request body
+        /// </summary>
+        /// <param name="app"></param>
+        private static void ReadingRequestBody(IAppBuilder app)
+        {
+
+            app.Use<RequestReadingMiddleware>();
+
+            app.Run(async (IOwinContext context) =>
+            {
+                string body = string.Empty;
+
+                using (var reader = new StreamReader(context.Request.Body))
+                {
+                    body = await reader.ReadToEndAsync();
+                }
+
+                context.Response.ContentLength = System.Text.Encoding.UTF8.GetByteCount(body);
+
+                await context.Response.WriteAsync(body);
+            });
+        }
+
+        private static void AddResponseHeaders(IAppBuilder app)
+        {
             //this middleware needs to run first in pipeline,
             //so it can be last to inspect outbound message.
             app.Use<MachineNamingMiddleware>();
